@@ -51,19 +51,53 @@ async def start_service(message: Message):
     if message.from_user.id not in ADMIN_IDS:
         return
 
+    await message.answer(
+        "🚀 Запускаю Inventory Bot..."
+    )
+
     url = f"https://api.render.com/v1/services/{RENDER_SERVICE_ID}/resume"
 
     headers = {
         "Authorization": f"Bearer {RENDER_API_KEY}"
     }
 
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=30) as client:
+
         r = await client.post(url, headers=headers)
 
-    await message.answer(
-        f"🚀 Ответ Render:\n{r.status_code}\n{r.text}"
-    )
+        if r.status_code not in [200, 202]:
+            await message.answer(
+                f"❌ Ошибка запуска\nHTTP {r.status_code}\n{r.text}"
+            )
+            return
 
+        await message.answer(
+            "⏳ Ожидаю запуск сервиса..."
+        )
+
+        for _ in range(12):  # 60 секунд
+
+            try:
+
+                check = await client.get(
+                    "https://inventory-bot-muyu.onrender.com/"
+                )
+
+                if check.status_code == 200:
+
+                    await message.answer(
+                        "🟢 Inventory Bot успешно запущен!"
+                    )
+                    return
+
+            except:
+                pass
+
+            await asyncio.sleep(5)
+
+    await message.answer(
+        "⚠️ Команда отправлена, но сервис ещё запускается."
+    )
 
 @dp.message(F.text == "🔴 Остановить")
 async def stop_service(message: Message):
