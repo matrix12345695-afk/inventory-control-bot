@@ -221,24 +221,33 @@ async def status_service(message: Message):
         if r.status_code != 200:
 
             await message.answer(
-                f"❌ Ошибка\nHTTP {r.status_code}"
+                f"❌ Ошибка получения статуса\nHTTP {r.status_code}"
             )
-
             return
 
         data = r.json()
 
-        text = str(data).lower()
+        pretty = str(data).lower()
 
-        if "suspended" in text:
-            status_icon = "🔴"
-            status_name = "Остановлен"
+        if "suspend" in pretty:
+            icon = "🔴"
+            status = "Остановлен"
+        elif "live" in pretty:
+            icon = "🟢"
+            status = "Работает"
         else:
-            status_icon = "🟢"
-            status_name = "Работает"
+            icon = "🟡"
+            status = "Переходное состояние"
 
         await message.answer(
-            f"{status_icon} Inventory Bot\n\nСтатус: {status_name}"
+            f"""
+⚙️ Inventory Bot
+
+{icon} Статус: {status}
+
+🆔 Service ID:
+{RENDER_SERVICE_ID}
+"""
         )
 
 
