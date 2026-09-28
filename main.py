@@ -5,10 +5,12 @@ from aiogram.filters import CommandStart
 import os
 import httpx
 import asyncio
+import logging
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 RENDER_API_KEY = os.getenv("RENDER_API_KEY")
 RENDER_SERVICE_ID = os.getenv("RENDER_SERVICE_ID")
+ROUND_VIDEO_SERVICE_ID = os.getenv("ROUND_VIDEO_SERVICE_ID")
 
 ADMIN_IDS = [
     502438855,
@@ -27,7 +29,10 @@ def menu():
         keyboard=[
             [KeyboardButton(text="🟢 Запустить")],
             [KeyboardButton(text="🔴 Остановить")],
-            [KeyboardButton(text="📊 Статус")]
+            [KeyboardButton(text="📊 Статус")],
+            [KeyboardButton(text="🟢 Запустить контроль кружков")],
+            [KeyboardButton(text="🔴 Остановить контроль кружков")],
+            [KeyboardButton(text="📊 Статус контроля кружков")]
         ],
         resize_keyboard=True
     )
@@ -249,6 +254,34 @@ async def status_service(message: Message):
 {RENDER_SERVICE_ID}
 """
         )
+
+
+@dp.message(F.text.in_({"🟢 Запустить контроль кружков", "🔴 Остановить контроль кружков", "📊 Статус контроля кружков"}))
+async def round_video_service(message: Message):
+    """Manage the independent inventory video worker without changing the original service."""
+    if not message.from_user or message.from_user.id not in ADMIN_IDS:
+        return
+    if not ROUND_VIDEO_SERVICE_ID or not RENDER_API_KEY:
+        await message.answer("⚠️ Контроль кружков ещё не подключён. Настройте ROUND_VIDEO_SERVICE_ID и RENDER_API_KEY в Render сервиса управления.")
+        return
+    label = message.text
+    action = "resume" if label.startswith("🟢") else ("suspend" if label.startswith("🔴") else "status")
+    url = f"https://api.render.com/v1/services/{ROUND_VIDEO_SERVICE_ID}"
+    try:
+        async with httpx.AsyncClient(timeout=30) as client:
+            if action == "status":
+                response = await client.get(url, headers={"Authorization": f"Bearer {RENDER_API_KEY}"})
+                response.raise_for_status()
+                service = response.json().get("service", response.json())
+                state = service.get("suspended", service.get("serviceDetails", {}).get("suspended", "unknown"))
+                await message.answer(f"📊 Контроль кружков: suspended={state}. Статус Render: {service.get('status', 'см. панель Render')}")
+            else:
+                response = await client.post(f"{url}/{action}", headers={"Authorization": f"Bearer {RENDER_API_KEY}"})
+                response.raise_for_status()
+                await message.answer("✅ Команда запуска отправлена в Render." if action == "resume" else "✅ Команда остановки отправлена в Render.")
+    except httpx.HTTPError as exc:
+        logging.exception("Render request failed")
+        await message.answer(f"⚠️ Render не выполнил команду ({type(exc).__name__}). Проверьте сервис в Render.")
 
 
 async def main():
