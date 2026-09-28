@@ -1,0 +1,2543 @@
+[
+  {
+    "branch": "Safia Фестиваль Магазин + Бар",
+    "code": "W119",
+    "date": "2026-09-29",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Центрбанк Магазин + Бар",
+    "code": "W212",
+    "date": "2026-09-29",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Кушбеги Магазин + Бар",
+    "code": "W059",
+    "date": "2026-09-29",
+    "manager": "XUSNIDDINOVA MUXLISA QAHRAMON QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Шота Руставели Магазин + Бар",
+    "code": "W089",
+    "date": "2026-09-29",
+    "manager": "QAYYUMOV DILSHOD NODIRJONO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Пионерская Магазин + Бар",
+    "code": "W079",
+    "date": "2026-09-29",
+    "manager": "GAYBULLAYEV MUXAMMADJON AXMADJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Бешкорогоч Магазин + Бар",
+    "code": "W045",
+    "date": "2026-09-29",
+    "manager": "G'IYOSOVA SHAHZODA BAHODIR QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Урикзар Магазин + Бар",
+    "code": "W029",
+    "date": "2026-09-29",
+    "manager": "KARIMOV NODIRJON O'TKIRJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Алмалык Айдын Магазин + Бар",
+    "code": "W216",
+    "date": "2026-09-29",
+    "manager": "KURVONBOYEV MURODBEK KURVONBOYO'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Алмалык Магазин + Бар",
+    "code": "W054",
+    "date": "2026-09-29",
+    "manager": "XOLIKOVA VIOLETA VIKTOROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Северный вокзал Магазин + Бар в 20:00",
+    "code": "W158",
+    "date": "2026-09-29",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Матонат Магазин + Бар",
+    "code": "W214",
+    "date": "2026-09-29",
+    "manager": "USMANALIYEVA JULDIZ ABDALIQIZI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Кукча Магазин + Бар",
+    "code": "W034",
+    "date": "2026-09-29",
+    "manager": "XUDOYQULOVA MAXMUDA MAXKAMQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Каракамыш АЛО Магазин + Бар",
+    "code": "W215",
+    "date": "2026-09-29",
+    "manager": "SHARIPOVA JASMIN NURULLA QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Уч Кахрамон Магазин + Бар",
+    "code": "W067",
+    "date": "2026-09-29",
+    "manager": "ZUXRIDDINOVA NIGORA RAXMATILLAYEVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Эко Магазин + Бар",
+    "code": "W091",
+    "date": "2026-09-29",
+    "manager": "YULDASHEVA MALOXAT BAXTIYOR QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Боткина Магазин + Бар",
+    "code": "W152",
+    "date": "2026-09-29",
+    "manager": "KALANDAROVA FERUZA MURODQIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Луначаский Магазин + Бар",
+    "code": "W027",
+    "date": "2026-09-29",
+    "manager": "QURBONBEKOV ABDURAHMON BOTIRBEK O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Чинабад Магазин + Бар",
+    "code": "W191",
+    "date": "2026-09-29",
+    "manager": "SODIQOV AZIMJON AZIZJONOVICH",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Вега Магазин + Бар",
+    "code": "W137",
+    "date": "2026-09-29",
+    "manager": "KASIMXANOV SAIDXON MAJIDXONOVICH",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Глинка Магазин + Бар",
+    "code": "W095",
+    "date": "2026-09-30",
+    "manager": "BAXODIROV JAVLON DAVRON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Аэропорт Arrivals Магазин + Бар",
+    "code": "W202",
+    "date": "2026-09-30",
+    "manager": "ZUPAROV ABDUVOSIX VOXOBO'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Камолон Магазин + Бар",
+    "code": "W077",
+    "date": "2026-09-30",
+    "manager": "XALILOVA DILDORA TO'LQINQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Заркайнар Магазин + Бар",
+    "code": "W172",
+    "date": "2026-09-30",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Авайхон Магазин + Бар",
+    "code": "W022",
+    "date": "2026-09-30",
+    "manager": "AZIZOVA IRODA BAXODIR QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Дархан Магазин + Бар",
+    "code": "W085",
+    "date": "2026-09-30",
+    "manager": "NOSIROV ELDORBEK ULUG'BEKO'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Мевазор Магазин + Бар",
+    "code": "W044",
+    "date": "2026-09-30",
+    "manager": "ABDUKADIROVA MALIKA MURATQIZ",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Гулобод Магазин + Бар",
+    "code": "W139",
+    "date": "2026-09-30",
+    "manager": "SAYRAMOVA DONO KABILJANOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Штаб Магазин + Бар",
+    "code": "W104",
+    "date": "2026-09-30",
+    "manager": "XUJANOVA RA'NO BABANAZAROVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Сайрам Магазин + Бар",
+    "code": "W099",
+    "date": "2026-09-30",
+    "manager": "BEGJANOV XIKMATJON XOLMAT O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Гвардейская Магазин + Бар",
+    "code": "W013",
+    "date": "2026-09-30",
+    "manager": "NURIDDINOV ZUXRIDDIN NURIDDINO'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia СамПИ Магазин + Бар",
+    "code": "W087",
+    "date": "2026-09-30",
+    "manager": "QOSIMOV AHMADJON AZIMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Дьюти Аэропорт Магазин + Бар 23:59",
+    "code": "W140",
+    "date": "2026-10-01",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Аэропорт Check-In Магазин + Бар",
+    "code": "W224",
+    "date": "2026-10-01",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Нэкст Магазин + Бар",
+    "code": "W188",
+    "date": "2026-10-01",
+    "manager": "DON VIKTOR KONSTANTINOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Грандмир Магазин + Бар",
+    "code": "W183",
+    "date": "2026-10-01",
+    "manager": "FAYZIYEVA SEVARA NODIR QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Садык-Азим Магазин + Бар",
+    "code": "W018",
+    "date": "2026-10-01",
+    "manager": "TURG'UNXO'JAYEV SHUXRAT SUNNATULLAO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Назарбек Магазин + Бар",
+    "code": "W178",
+    "date": "2026-10-01",
+    "manager": "BAHODIROV MIRSAID RUSTAM O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Уй базар Магазин + Бар",
+    "code": "W170",
+    "date": "2026-10-01",
+    "manager": "AYUPOVA MADINAXON SHAXOBIDDIN QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Водник Магазин + Бар",
+    "code": "W083",
+    "date": "2026-10-01",
+    "manager": "SAIDAXMEDOVA DILRABO BATIROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Корасарой Магазин + Бар",
+    "code": "W056",
+    "date": "2026-10-01",
+    "manager": "ABIDOVA RA'NO UTKIROVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Шахристан Магазин + Бар",
+    "code": "W048",
+    "date": "2026-10-01",
+    "manager": "ALANBAYEVA ROBIYA MIRAZIZ QIZI",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Аккурган Магазин + Бар",
+    "code": "W032",
+    "date": "2026-10-01",
+    "manager": "UBAYDULLAYEV OBIDXON FAYZULLA O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Минор Магазин + Бар",
+    "code": "W036",
+    "date": "2026-10-01",
+    "manager": "ALANBAYEVA ROBIYA MIRAZIZ QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Зенит Магазин + Бар",
+    "code": "W025",
+    "date": "2026-10-01",
+    "manager": "YAKUBOV RUSLAN RUSTAMOVICH",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia IT ПАРК Магазин + Бар",
+    "code": "W205",
+    "date": "2026-10-01",
+    "manager": "RAXIMOVA SHAXLO ABDUMUMINOVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Максим Горький Магазин + Бар",
+    "code": "W126",
+    "date": "2026-10-01",
+    "manager": "QURBONBEKOV ABDURAHMON BOTIRBEK O'G'LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Фозилтепа Магазин + Бар",
+    "code": "W003",
+    "date": "2026-10-02",
+    "manager": "SADIKOVA DIANA ARTUROVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Алгоритм Магазин + Бар",
+    "code": "W011",
+    "date": "2026-10-02",
+    "manager": "ABDUVOXIDOV ABDULAZIZ ABDUBOSID O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Ахмад  Магазин + Бар",
+    "code": "W023",
+    "date": "2026-10-02",
+    "manager": "ABDUVOXIDOV ABDULAZIZ ABDUBOSID O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Чиланзар Магазин + Бар",
+    "code": "W046",
+    "date": "2026-10-02",
+    "manager": "SAYRAMOVA DONO KABILJANOVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Гулистан Магазин + Бар",
+    "code": "W204",
+    "date": "2026-10-02",
+    "manager": "KAMBARBEKOV SULTONBEK ULUG'BEK O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Тансыкбаев Магазин + Бар",
+    "code": "W064",
+    "date": "2026-10-02",
+    "manager": "SAMADOVA BARNO TOXIROVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Себзар Магазин + Бар",
+    "code": "W157",
+    "date": "2026-10-02",
+    "manager": "XUSHVAQOVA MUXLISA AKMAL QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Малика Магазин + Бар",
+    "code": "W060",
+    "date": "2026-10-02",
+    "manager": "SHUXRATOV AKBAR LAZIZOVICH",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Инха Магазин + Бар",
+    "code": "W055",
+    "date": "2026-10-02",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia МГИМО Магазин + Бар",
+    "code": "W086",
+    "date": "2026-10-02",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Кибрай Магазин + Бар",
+    "code": "W196",
+    "date": "2026-10-02",
+    "manager": "TASTANOVA ROZA AYBEK QIZI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Феруза Магазин + Бар",
+    "code": "W146",
+    "date": "2026-10-02",
+    "manager": "ERGASHEV MUHAMMAD SHUKUR DILSHOD O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Burger Глинка",
+    "code": "W207",
+    "date": "2026-10-02",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Саракулька Магазин + Бар",
+    "code": "W100",
+    "date": "2026-10-03",
+    "manager": "BABAJANOVA ZEBO RAJABBAYEVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Рисовый Магазин + Бар",
+    "code": "W190",
+    "date": "2026-10-03",
+    "manager": "GEK LILIYA YUREVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Мехржон Магазин + Бар",
+    "code": "W127",
+    "date": "2026-10-03",
+    "manager": "BABAJANOVA ZEBO RAJABBAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Ардус Магазин + Бар",
+    "code": "W051",
+    "date": "2026-10-04",
+    "manager": "YOQUBOV JONIBEK BAHRIDDIN O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Куйлик-5 Магазин + Бар",
+    "code": "W031",
+    "date": "2026-10-05",
+    "manager": "ASHIROVA ALBINA ILDUSOVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Файзобад Магазин + Бар",
+    "code": "W068",
+    "date": "2026-10-05",
+    "manager": "ASHIROVA ALBINA ILDUSOVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Фархадский Магазин + Бар",
+    "code": "W102",
+    "date": "2026-10-05",
+    "manager": "IZZATOVA MALIKABONU ABDURASUL QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Шохимардон Магазин + Бар",
+    "code": "W039",
+    "date": "2026-10-05",
+    "manager": "JO'RAYEV BEHZOD ASQARALIYEVICH",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Крестик Магазин + Бар",
+    "code": "W026",
+    "date": "2026-10-05",
+    "manager": "ODILJONOV JAVOHIR AZIMJONO'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Кадышево Магазин + Бар",
+    "code": "W015",
+    "date": "2026-10-05",
+    "manager": "JO'RAYEV BEHZOD ASQARALIYEVICH",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Паркентская Магазин + Бар",
+    "code": "W037",
+    "date": "2026-10-05",
+    "manager": "ZUNNUNOVA GAVXAR SULAYMANOVNA",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Коммунизм  Магазин + Бар",
+    "code": "W033",
+    "date": "2026-10-05",
+    "manager": "SHAKALANDAROVA DILNOZA AVAZOVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Буньёдкор Магазин + Бар",
+    "code": "W093",
+    "date": "2026-10-05",
+    "manager": "ISMAILOVA GULCHEXRA SULTONOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia ИНТЕГРО Магазин + Бар",
+    "code": "W168",
+    "date": "2026-10-05",
+    "manager": "NURMATOVA NARGIZA SAIDULLAYEVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Медгородок Магазин + Бар",
+    "code": "W016",
+    "date": "2026-10-05",
+    "manager": "KASIMOVA GUZALXON XUSNITDINOVNA",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Медгородок Кухня",
+    "code": "W016",
+    "date": "2026-10-05",
+    "manager": "KASIMOVA GUZALXON XUSNITDINOVNA",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Глобус Магазин + Бар",
+    "code": "W084",
+    "date": "2026-10-05",
+    "manager": "RISKIYEVA MALIKA ISMATDJANOVNA",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Аль-Хорезмий  Магазин + Бар",
+    "code": "W041",
+    "date": "2026-10-05",
+    "manager": "ALIYEV OTAJON BOXODIR O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia ТЦ-Атлас Магазин + Бар",
+    "code": "W209",
+    "date": "2026-10-05",
+    "manager": "ABDULLAYEVA NILUFAR RIXSIVAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Аэропорт Магазин + Бар",
+    "code": "W082",
+    "date": "2026-10-06",
+    "manager": "TAJIMURODOV ZAFAR ADXAMJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia МКАД Бобур Магазин + Бар",
+    "code": "W198",
+    "date": "2026-10-06",
+    "manager": "ANVAROVA MADINAXON ADHAMJON QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Сити молл Магазин + Бар",
+    "code": "W049",
+    "date": "2026-10-06",
+    "manager": "ALIYEVA ZUMRUT BAXTIYOROVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Океан Магазин + Бар",
+    "code": "W129",
+    "date": "2026-10-06",
+    "manager": "QAYYUMOV DILSHOD NODIRJONO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Жарарык Магазин + Бар",
+    "code": "W043",
+    "date": "2026-10-06",
+    "manager": "YUSUPALIYEVA GULNOZA XIKMATULLAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Бочка Магазин + Бар",
+    "code": "W173",
+    "date": "2026-10-06",
+    "manager": "TURDIKULOVA ZARINA JANGABEK QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Газалкент Магазин + Бар",
+    "code": "W154",
+    "date": "2026-10-06",
+    "manager": "ZAKIRJONOVA BARGIDA MISLIMBEKOVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Ангрен Магазин + Бар",
+    "code": "W175",
+    "date": "2026-10-06",
+    "manager": "ISRAILOV DOSTONBEK TOXIRDJONOVICH",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Ташми Магазин + Бар",
+    "code": "W038",
+    "date": "2026-10-06",
+    "manager": "TOSHMIROVA LAYLO HOLMURODQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Телебашня Магазин + Бар",
+    "code": "W144",
+    "date": "2026-10-06",
+    "manager": "SHUVALOV ARTYOM MUSLIMOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Бульвар Магазин + Бар",
+    "code": "W185",
+    "date": "2026-10-06",
+    "manager": "NIYAZXODJAYEVA SAIDA SAIDIKRAMOVNA",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Сити молл фудкорд Магазин + Бар",
+    "code": "W222",
+    "date": "2026-10-06",
+    "manager": "ZUPAROV ABDUVOSIX VOXOBO'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Бульвар Кухня",
+    "code": "W185",
+    "date": "2026-10-06",
+    "manager": "NIYAZXODJAYEVA SAIDA SAIDIKRAMOVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Бульвар",
+    "code": "W193",
+    "date": "2026-10-06",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Янги хайёт Магазин + Бар",
+    "code": "W092",
+    "date": "2026-10-07",
+    "manager": "BATDALOV RUSLAN RINATOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Спутник Магазин + Бар",
+    "code": "W080",
+    "date": "2026-10-07",
+    "manager": "BATDALOV RUSLAN RINATOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Хувайдо Магазин + Бар",
+    "code": "W130",
+    "date": "2026-10-07",
+    "manager": "XUDOYQULOVA MAXMUDA MAXKAMQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Чигатой Магазин + Бар",
+    "code": "W103",
+    "date": "2026-10-07",
+    "manager": "YUNUSOVA ZILOLA G'IYOSIDDINQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Янгибазар Магазин + Бар",
+    "code": "W162",
+    "date": "2026-10-07",
+    "manager": "YO'LDOSHEVA DURDONA GAFUROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia ТТЗ Магазин + Бар",
+    "code": "W101",
+    "date": "2026-10-07",
+    "manager": "BADALOVA DILOBAR YUSUPOVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Хаст-Имам Магазин + Бар",
+    "code": "W019",
+    "date": "2026-10-07",
+    "manager": "ASHIRALIYEVA MOXIRA ZIKIRILLAQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Шохсарой  Магазин + Бар",
+    "code": "W040",
+    "date": "2026-10-07",
+    "manager": "MAXKAMOVA NARGIZA SHUXRATQIZI",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Нурафшон Магазин + Бар",
+    "code": "W062",
+    "date": "2026-10-07",
+    "manager": "MAXMANAZAROVA IRODA ABDUVAHOBQIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Лабзак Магазин + Бар",
+    "code": "W141",
+    "date": "2026-10-07",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LIIDDINOVA MUNIRA SHOVKAT QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Чирчик Троицкий Магазин + Бар",
+    "code": "W161",
+    "date": "2026-10-07",
+    "manager": "NOSIROV BAXODIRJON BAXROMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Чирчик  Магазин + Бар",
+    "code": "W047",
+    "date": "2026-10-07",
+    "manager": "NOSIROV BAXODIRJON BAXROMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Чирчик  Кухня",
+    "code": "W047",
+    "date": "2026-10-07",
+    "manager": "NOSIROV BAXODIRJON BAXROMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Зангиота Магазин + Бар",
+    "code": "W177",
+    "date": "2026-10-07",
+    "manager": "SOVETBAYEVA NODIRA SAPAR QIZI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Домбирабад Магазин + Бар",
+    "code": "W024",
+    "date": "2026-10-08",
+    "manager": "SHOKASIMOVA UMIDA XAMIDULLAYEVNA",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Авторынок Магазин + Бар",
+    "code": "W150",
+    "date": "2026-10-08",
+    "manager": "IMOMJONOVA NAZOKAT ABDURAUP QIZI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Цум Магазин + Бар",
+    "code": "W030",
+    "date": "2026-10-08",
+    "manager": "SAIDMUXTOROV FIRDAVSJON ABDUKAXXOR O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Тарас Шевченко Магазин + Бар",
+    "code": "W066",
+    "date": "2026-10-08",
+    "manager": "",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Пойтахт Магазин + Бар",
+    "code": "W213",
+    "date": "2026-10-08",
+    "manager": "BASHIROVA KRISTINA VADIMOVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Эркин Магазин + Бар",
+    "code": "W147",
+    "date": "2026-10-08",
+    "manager": "MAGDALIYEVA MUQADDAS KOMIL QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Эшонгузар Магазин + Бар",
+    "code": "W181",
+    "date": "2026-10-08",
+    "manager": "MAGDALIYEVA MUQADDAS KOMIL QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Туйтепа Магазин + Бар",
+    "code": "W159",
+    "date": "2026-10-08",
+    "manager": "DEKANBAYEVA SHIRIN NIG'MATJON QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Келес  Магазин  + Бар",
+    "code": "W078",
+    "date": "2026-10-08",
+    "manager": "RAXMATULLAYEVA SHOISTA ZOIR QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Кургонтепа Магазин + Бар",
+    "code": "W155",
+    "date": "2026-10-08",
+    "manager": "DADABAYEVA NAZOKAT XASANOVNA",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Сергели Магазин + Бар",
+    "code": "W021",
+    "date": "2026-10-08",
+    "manager": "AYUPOV ABBOSXON",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Сергели Кухня",
+    "code": "W021",
+    "date": "2026-10-08",
+    "manager": "AYUPOV ABBOSXON",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Ганга Магазин + Бар",
+    "code": "W012",
+    "date": "2026-10-08",
+    "manager": "YUNUSOVA SHAXNOZA BADRIDDINOVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Перфект University Магазин + Бар",
+    "code": "W232",
+    "date": "2026-10-08",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Дружба Магазин + Бар",
+    "code": "W182",
+    "date": "2026-10-09",
+    "manager": "ASHIROVA SETORA SOLIX QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Новза Магазин + Бар",
+    "code": "W143",
+    "date": "2026-10-09",
+    "manager": "ABDULLAZODA BONUSHAXZODA ASADULLAQIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Гёте Магазин + Бар",
+    "code": "W053",
+    "date": "2026-10-09",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Изза Магазин + Бар",
+    "code": "W096",
+    "date": "2026-10-09",
+    "manager": "KARIMOV NODIRJON O'TKIRJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Ватан Магазин + Бар",
+    "code": "W094",
+    "date": "2026-10-09",
+    "manager": "SHOKASIMOVA UMIDA XAMIDULLAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Бекабад Магазин + Бар",
+    "code": "W151",
+    "date": "2026-10-09",
+    "manager": "KOMILJONOV NURZOD ULUG'BEK O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Жомий Магазин + Бар",
+    "code": "W076",
+    "date": "2026-10-09",
+    "manager": "LATIPOVA DILNOZA BAXODIROVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Дружба Кухня",
+    "code": "W182",
+    "date": "2026-10-09",
+    "manager": "ASHIROVA SETORA SOLIX QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Сингапурский Магазин + Бар",
+    "code": "W063",
+    "date": "2026-10-09",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Ракат Магазин + Бар",
+    "code": "W017",
+    "date": "2026-10-09",
+    "manager": "SEITMAMBETOVA ZAREMA RIZAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Ракат Кухня",
+    "code": "W017",
+    "date": "2026-10-09",
+    "manager": "SEITMAMBETOVA ZAREMA RIZAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Торговый центр (гагарина) Магазин + Бар",
+    "code": "W171",
+    "date": "2026-10-10",
+    "manager": "AXMADXO'JAYEV UMIDJON ULUG'BEK O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Атлас Магазин + Бар",
+    "code": "W075",
+    "date": "2026-10-10",
+    "manager": "ABDULLAYEVA NILUFAR RIXSIVAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Зиёлилар  Магазин + Бар",
+    "code": "W014",
+    "date": "2026-10-10",
+    "manager": "UBAYDULLAYEV OBIDXON FAYZULLA O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Лакокраска Магазин + Бар",
+    "code": "W002",
+    "date": "2026-10-10",
+    "manager": "UBAYDULLAYEV OBIDXON FAYZULLA O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Бешкорогоч Магазин + Бар",
+    "code": "W045",
+    "date": "2026-10-11",
+    "manager": "G'IYOSOVA SHAHZODA BAHODIR QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Урикзар Магазин + Бар",
+    "code": "W029",
+    "date": "2026-10-11",
+    "manager": "KARIMOV NODIRJON O'TKIRJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Северный вокзал Магазин + Бар в 20:00",
+    "code": "W158",
+    "date": "2026-10-11",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Матонат Магазин + Бар",
+    "code": "W214",
+    "date": "2026-10-11",
+    "manager": "USMANALIYEVA JULDIZ ABDALIQIZI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Уч Кахрамон Магазин + Бар",
+    "code": "W067",
+    "date": "2026-10-11",
+    "manager": "ZUXRIDDINOVA NIGORA RAXMATILLAYEVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Гейдар Алиев Магазин + Бар",
+    "code": "W167",
+    "date": "2026-10-12",
+    "manager": "TO`YCHIYEVA OYSHAXON XURSHIDQIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Ашрафий Магазин + Бар",
+    "code": "W125",
+    "date": "2026-10-12",
+    "manager": "TO`YCHIYEVA OYSHAXON XURSHIDQIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Узбум Магазин + Бар",
+    "code": "W180",
+    "date": "2026-10-12",
+    "manager": "RAZAKOV SANJAR ABDUPATTAXOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Коканд Магазин + Бар",
+    "code": "W138",
+    "date": "2026-10-12",
+    "manager": "SOLIJONOV DIYORBEK OTABEK O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Корасув Магазин + Бар",
+    "code": "W098",
+    "date": "2026-10-12",
+    "manager": "AZIZOVA IRODA BAXODIR QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Компас Магазин + Бар",
+    "code": "W097",
+    "date": "2026-10-12",
+    "manager": "TURSUNOVA MARXAMAT SIDIKXODJAYEVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Янгиюль Магазин + Бар",
+    "code": "W070",
+    "date": "2026-10-12",
+    "manager": "MIRZABEK DINARA MARATQIZI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Нукус Магазин + Бар",
+    "code": "W061",
+    "date": "2026-10-12",
+    "manager": "XAYRULLAYEVA CHAROSBONU G'AYRATULLO QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Бельтепа Магазин + Бар",
+    "code": "W203",
+    "date": "2026-10-12",
+    "manager": "AHMEDOV HUSAN FURQAT O'G'LI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Тинчлик Магазин + Бар",
+    "code": "W028",
+    "date": "2026-10-12",
+    "manager": "XIDIROVA NARGIZA AXMETOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Чорсу Магазин + Бар",
+    "code": "W081",
+    "date": "2026-10-12",
+    "manager": "ZOKIROVA YULDUZ AXMADJONOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Мега Кухня",
+    "code": "W035",
+    "date": "2026-10-12",
+    "manager": "QOSIMOV AHMADJON AZIMJON O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Мега Магазин + Бар",
+    "code": "W035",
+    "date": "2026-10-12",
+    "manager": "QOSIMOV AHMADJON AZIMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Бодомзор Магазин + Бар",
+    "code": "W208",
+    "date": "2026-10-12",
+    "manager": "ABDUJABBOROV NURULLO NARZULLO O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Burger Минор",
+    "code": "W007",
+    "date": "2026-10-12",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Цум",
+    "code": "W008",
+    "date": "2026-10-12",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Фестиваль Магазин + Бар",
+    "code": "W119",
+    "date": "2026-10-13",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Центрбанк Магазин + Бар",
+    "code": "W212",
+    "date": "2026-10-13",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Кушбеги Магазин + Бар",
+    "code": "W059",
+    "date": "2026-10-13",
+    "manager": "XUSNIDDINOVA MUXLISA QAHRAMON QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Шота Руставели Магазин + Бар",
+    "code": "W089",
+    "date": "2026-10-13",
+    "manager": "QAYYUMOV DILSHOD NODIRJONO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Пионерская Магазин + Бар",
+    "code": "W079",
+    "date": "2026-10-13",
+    "manager": "GAYBULLAYEV MUXAMMADJON AXMADJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Галаба  Магазин + Бар Наманган",
+    "code": "W073",
+    "date": "2026-10-13",
+    "manager": "XALIKOVA SHAMSHIXON XXX",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia А.Навои Магазин + Бар Наманган",
+    "code": "W128",
+    "date": "2026-10-13",
+    "manager": "RAXIMDJANOV OYBEK XUSANOVICH",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Алмалык Айдын Магазин + Бар",
+    "code": "W216",
+    "date": "2026-10-13",
+    "manager": "KURVONBOYEV MURODBEK KURVONBOYO'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Алмалык Магазин + Бар",
+    "code": "W054",
+    "date": "2026-10-13",
+    "manager": "XOLIKOVA VIOLETA VIKTOROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Кукча Магазин + Бар",
+    "code": "W034",
+    "date": "2026-10-13",
+    "manager": "XUDOYQULOVA MAXMUDA MAXKAMQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Каракамыш АЛО Магазин + Бар",
+    "code": "W215",
+    "date": "2026-10-13",
+    "manager": "SHARIPOVA JASMIN NURULLA QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia ТаукеханаМагазин + Бар",
+    "code": "None",
+    "date": "2026-10-13",
+    "manager": "NAZAROV SARDOR SHUXRAT OGL",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Аскарова Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-13",
+    "manager": "NAZAROV SARDOR SHUXRAT OGL",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Момышулы Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-13",
+    "manager": "NAZAROV SARDOR SHUXRAT OGL",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Северный Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-13",
+    "manager": "NAZAROV SARDOR SHUXRAT OGL",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Уалиханова Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-13",
+    "manager": "NAZAROV SARDOR SHUXRAT OGL",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Эко Магазин + Бар",
+    "code": "W091",
+    "date": "2026-10-13",
+    "manager": "YULDASHEVA MALOXAT BAXTIYOR QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Боткина Магазин + Бар",
+    "code": "W152",
+    "date": "2026-10-13",
+    "manager": "KALANDAROVA FERUZA MURODQIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Луначаский Магазин + Бар",
+    "code": "W027",
+    "date": "2026-10-13",
+    "manager": "QURBONBEKOV ABDURAHMON BOTIRBEK O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Чинабад Магазин + Бар",
+    "code": "W191",
+    "date": "2026-10-13",
+    "manager": "SODIQOV AZIMJON AZIZJONOVICH",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Вега Магазин + Бар",
+    "code": "W137",
+    "date": "2026-10-13",
+    "manager": "KASIMXANOV SAIDXON MAJIDXONOVICH",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Глинка Магазин + Бар",
+    "code": "W095",
+    "date": "2026-10-14",
+    "manager": "BAXODIROV JAVLON DAVRON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Аэропорт Arrivals Магазин + Бар",
+    "code": "W202",
+    "date": "2026-10-14",
+    "manager": "ZUPAROV ABDUVOSIX VOXOBO'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Фергана Магазин + бар",
+    "code": "W074",
+    "date": "2026-10-14",
+    "manager": "TAJIBOYEV ILYOSBEK BAXTIYORJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Навои Магазин + Бар",
+    "code": "W189",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Дархан Магазин + Бар",
+    "code": "W085",
+    "date": "2026-10-14",
+    "manager": "NOSIROV ELDORBEK ULUG'BEKO'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Мевазор Магазин + Бар",
+    "code": "W044",
+    "date": "2026-10-14",
+    "manager": "ABDUKADIROVA MALIKA MURATQIZ",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Тимирязова Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Навои Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Лацио Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Дустык Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Сейфулина Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Толеби Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Розибакиев Магазин + Бар",
+    "code": "None",
+    "date": "2026-10-14",
+    "manager": "SODIKOV LAZIZJON AZIZJONOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH, MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Дархан Кухня",
+    "code": "W085",
+    "date": "2026-10-14",
+    "manager": "NOSIROV ELDORBEK ULUG'BEKO'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Сайрам Магазин + Бар",
+    "code": "W099",
+    "date": "2026-10-14",
+    "manager": "BEGJANOV XIKMATJON XOLMAT O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Гвардейская Магазин + Бар",
+    "code": "W013",
+    "date": "2026-10-14",
+    "manager": "NURIDDINOV ZUXRIDDIN NURIDDINO'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia СамПИ Магазин + Бар",
+    "code": "W087",
+    "date": "2026-10-14",
+    "manager": "QOSIMOV AHMADJON AZIMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Burger Паркентская",
+    "code": "W179",
+    "date": "2026-10-14",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Максим Горький",
+    "code": "W206",
+    "date": "2026-10-14",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Дьюти Аэропорт Магазин + Бар 23:59",
+    "code": "W140",
+    "date": "2026-10-15",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Аэропорт Check-In Магазин + Бар",
+    "code": "W224",
+    "date": "2026-10-15",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Нэкст Магазин + Бар",
+    "code": "W188",
+    "date": "2026-10-15",
+    "manager": "DON VIKTOR KONSTANTINOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Грандмир Магазин + Бар",
+    "code": "W183",
+    "date": "2026-10-15",
+    "manager": "FAYZIYEVA SEVARA NODIR QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Садык-Азим Магазин + Бар",
+    "code": "W018",
+    "date": "2026-10-15",
+    "manager": "TURG'UNXO'JAYEV SHUXRAT SUNNATULLAO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Узбегим Магазин + Бар Андижан",
+    "code": "W163",
+    "date": "2026-10-15",
+    "manager": "LUTFULLAYEV SAYDULLO SUHBATULLO O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Навруз Магазин + Бар Андижан",
+    "code": "W071",
+    "date": "2026-10-15",
+    "manager": "MURODOV SHOHRUH SHUHRATOVICH",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia АНД ЭКОПАРК + Бар Андижан",
+    "code": "W211",
+    "date": "2026-10-15",
+    "manager": "MURODOV SHOHRUH SHUHRATOVICH",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia АНД Мумтоз + Бар Андижан",
+    "code": "W211",
+    "date": "2026-10-15",
+    "manager": "#N/A",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Бухара Магазин + Бар",
+    "code": "W072",
+    "date": "2026-10-15",
+    "manager": "DJURAYEVA SANOBAR RAXIMOVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Бухара вокзал Магазин + Бар",
+    "code": "W174",
+    "date": "2026-10-15",
+    "manager": "DJURAYEVA SANOBAR RAXIMOVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Корасарой Магазин + Бар",
+    "code": "W056",
+    "date": "2026-10-15",
+    "manager": "ABIDOVA RA'NO UTKIROVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Шахристан Магазин + Бар",
+    "code": "W048",
+    "date": "2026-10-15",
+    "manager": "ALANBAYEVA ROBIYA MIRAZIZ QIZI",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Аккурган Магазин + Бар",
+    "code": "W032",
+    "date": "2026-10-15",
+    "manager": "UBAYDULLAYEV OBIDXON FAYZULLA O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Минор Магазин + Бар",
+    "code": "W036",
+    "date": "2026-10-15",
+    "manager": "ALANBAYEVA ROBIYA MIRAZIZ QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Зенит Магазин + Бар",
+    "code": "W025",
+    "date": "2026-10-15",
+    "manager": "YAKUBOV RUSLAN RUSTAMOVICH",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia IT ПАРК Магазин + Бар",
+    "code": "W205",
+    "date": "2026-10-15",
+    "manager": "RAXIMOVA SHAXLO ABDUMUMINOVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Максим Горький Магазин + Бар",
+    "code": "W126",
+    "date": "2026-10-15",
+    "manager": "QURBONBEKOV ABDURAHMON BOTIRBEK O'G'LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Фозилтепа Магазин + Бар",
+    "code": "W003",
+    "date": "2026-10-16",
+    "manager": "SADIKOVA DIANA ARTUROVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Камолон Магазин + Бар",
+    "code": "W077",
+    "date": "2026-10-16",
+    "manager": "XALILOVA DILDORA TO'LQINQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Заркайнар Магазин + Бар",
+    "code": "W172",
+    "date": "2026-10-16",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Чиланзар Магазин + Бар",
+    "code": "W046",
+    "date": "2026-10-16",
+    "manager": "SAYRAMOVA DONO KABILJANOVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Карши Магазин + Бар",
+    "code": "W057",
+    "date": "2026-10-16",
+    "manager": "ISMOILOV ABBOS ZAFAR O'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Гулистан Магазин + Бар",
+    "code": "W204",
+    "date": "2026-10-16",
+    "manager": "KAMBARBEKOV SULTONBEK ULUG'BEK O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Тансыкбаев Магазин + Бар",
+    "code": "W064",
+    "date": "2026-10-16",
+    "manager": "SAMADOVA BARNO TOXIROVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Гулобод Магазин + Бар",
+    "code": "W139",
+    "date": "2026-10-16",
+    "manager": "SAYRAMOVA DONO KABILJANOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Штаб Магазин + Бар",
+    "code": "W104",
+    "date": "2026-10-16",
+    "manager": "XUJANOVA RA'NO BABANAZAROVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Себзар Магазин + Бар",
+    "code": "W157",
+    "date": "2026-10-16",
+    "manager": "XUSHVAQOVA MUXLISA AKMAL QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Малика Магазин + Бар",
+    "code": "W060",
+    "date": "2026-10-16",
+    "manager": "SHUXRATOV AKBAR LAZIZOVICH",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Инха Магазин + Бар",
+    "code": "W055",
+    "date": "2026-10-16",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia МГИМО Магазин + Бар",
+    "code": "W086",
+    "date": "2026-10-16",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Кибрай Магазин + Бар",
+    "code": "W196",
+    "date": "2026-10-16",
+    "manager": "TASTANOVA ROZA AYBEK QIZI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Феруза Магазин + Бар",
+    "code": "W146",
+    "date": "2026-10-16",
+    "manager": "ERGASHEV MUHAMMAD SHUKUR DILSHOD O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Burger Чинабад",
+    "code": "W192",
+    "date": "2026-10-16",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Зенит Кухня",
+    "code": "W025",
+    "date": "2026-10-16",
+    "manager": "YAKUBOV RUSLAN RUSTAMOVICH",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Зенит",
+    "code": "W006",
+    "date": "2026-10-16",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Саракулька Магазин + Бар",
+    "code": "W100",
+    "date": "2026-10-17",
+    "manager": "BABAJANOVA ZEBO RAJABBAYEVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Рисовый Магазин + Бар",
+    "code": "W190",
+    "date": "2026-10-17",
+    "manager": "GEK LILIYA YUREVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Назарбек Магазин + Бар",
+    "code": "W178",
+    "date": "2026-10-17",
+    "manager": "BAHODIROV MIRSAID RUSTAM O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Уй базар Магазин + Бар",
+    "code": "W170",
+    "date": "2026-10-17",
+    "manager": "AYUPOVA MADINAXON SHAXOBIDDIN QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Термез Магазин + Бар",
+    "code": "W187",
+    "date": "2026-10-17",
+    "manager": "KARIMOV ISLOMJON AXMED O'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Мехржон Магазин + Бар",
+    "code": "W127",
+    "date": "2026-10-17",
+    "manager": "BABAJANOVA ZEBO RAJABBAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Алгоритм Магазин + Бар",
+    "code": "W011",
+    "date": "2026-10-18",
+    "manager": "ABDUVOXIDOV ABDULAZIZ ABDUBOSID O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Ахмад  Магазин + Бар",
+    "code": "W023",
+    "date": "2026-10-18",
+    "manager": "ABDUVOXIDOV ABDULAZIZ ABDUBOSID O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Авайхон Магазин + Бар",
+    "code": "W022",
+    "date": "2026-10-18",
+    "manager": "AZIZOVA IRODA BAXODIR QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Водник Магазин + Бар",
+    "code": "W083",
+    "date": "2026-10-18",
+    "manager": "SAIDAXMEDOVA DILRABO BATIROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Burger Самарканд Дарвоза",
+    "code": "W123",
+    "date": "2026-10-18",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Садык Азимов",
+    "code": "W010",
+    "date": "2026-10-18",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Куйлик-5 Магазин + Бар",
+    "code": "W031",
+    "date": "2026-10-19",
+    "manager": "ASHIROVA ALBINA ILDUSOVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Файзобад Магазин + Бар",
+    "code": "W068",
+    "date": "2026-10-19",
+    "manager": "ASHIROVA ALBINA ILDUSOVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Фархадский Магазин + Бар",
+    "code": "W102",
+    "date": "2026-10-19",
+    "manager": "IZZATOVA MALIKABONU ABDURASUL QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Шохимардон Магазин + Бар",
+    "code": "W039",
+    "date": "2026-10-19",
+    "manager": "JO'RAYEV BEHZOD ASQARALIYEVICH",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Крестик Магазин + Бар",
+    "code": "W026",
+    "date": "2026-10-19",
+    "manager": "ODILJONOV JAVOHIR AZIMJONO'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Кадышево Магазин + Бар",
+    "code": "W015",
+    "date": "2026-10-19",
+    "manager": "JO'RAYEV BEHZOD ASQARALIYEVICH",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Паркентская Магазин + Бар",
+    "code": "W037",
+    "date": "2026-10-19",
+    "manager": "ZUNNUNOVA GAVXAR SULAYMANOVNA",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Коммунизм  Магазин + Бар",
+    "code": "W033",
+    "date": "2026-10-19",
+    "manager": "SHAKALANDAROVA DILNOZA AVAZOVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Буньёдкор Магазин + Бар",
+    "code": "W093",
+    "date": "2026-10-19",
+    "manager": "ISMAILOVA GULCHEXRA SULTONOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia ИНТЕГРО Магазин + Бар",
+    "code": "W168",
+    "date": "2026-10-19",
+    "manager": "NURMATOVA NARGIZA SAIDULLAYEVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Ардус Магазин + Бар",
+    "code": "W051",
+    "date": "2026-10-19",
+    "manager": "YOQUBOV JONIBEK BAHRIDDIN O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Глобус Магазин + Бар",
+    "code": "W084",
+    "date": "2026-10-19",
+    "manager": "RISKIYEVA MALIKA ISMATDJANOVNA",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Аль-Хорезмий  Магазин + Бар",
+    "code": "W041",
+    "date": "2026-10-19",
+    "manager": "ALIYEV OTAJON BOXODIR O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia ТЦ-Атлас Магазин + Бар",
+    "code": "W209",
+    "date": "2026-10-19",
+    "manager": "ABDULLAYEVA NILUFAR RIXSIVAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Аэропорт Магазин + Бар",
+    "code": "W082",
+    "date": "2026-10-20",
+    "manager": "TAJIMURODOV ZAFAR ADXAMJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia МКАД Бобур Магазин + Бар",
+    "code": "W198",
+    "date": "2026-10-20",
+    "manager": "ANVAROVA MADINAXON ADHAMJON QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Сити молл Магазин + Бар",
+    "code": "W049",
+    "date": "2026-10-20",
+    "manager": "ALIYEVA ZUMRUT BAXTIYOROVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Океан Магазин + Бар",
+    "code": "W129",
+    "date": "2026-10-20",
+    "manager": "QAYYUMOV DILSHOD NODIRJONO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Жарарык Магазин + Бар",
+    "code": "W043",
+    "date": "2026-10-20",
+    "manager": "YUSUPALIYEVA GULNOZA XIKMATULLAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Ургенч Магазин + Бар",
+    "code": "W184",
+    "date": "2026-10-20",
+    "manager": "NURULLAYEVA SADOQAT RAJABBOY QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Ангрен Магазин + Бар",
+    "code": "W175",
+    "date": "2026-10-20",
+    "manager": "ISRAILOV DOSTONBEK TOXIRDJONOVICH",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Ташми Магазин + Бар",
+    "code": "W038",
+    "date": "2026-10-20",
+    "manager": "TOSHMIROVA LAYLO HOLMURODQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Телебашня Магазин + Бар",
+    "code": "W144",
+    "date": "2026-10-20",
+    "manager": "SHUVALOV ARTYOM MUSLIMOVICH",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Медгородок Магазин + Бар",
+    "code": "W016",
+    "date": "2026-10-20",
+    "manager": "KASIMOVA GUZALXON XUSNITDINOVNA",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Бульвар Магазин + Бар",
+    "code": "W185",
+    "date": "2026-10-20",
+    "manager": "NIYAZXODJAYEVA SAIDA SAIDIKRAMOVNA",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Сити молл фудкорд Магазин + Бар",
+    "code": "W222",
+    "date": "2026-10-20",
+    "manager": "ZUPAROV ABDUVOSIX VOXOBO'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Сити молл фудкорд Кухня",
+    "code": "W222",
+    "date": "2026-10-20",
+    "manager": "ZUPAROV ABDUVOSIX VOXOBO'G'LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Янги хайёт Магазин + Бар",
+    "code": "W092",
+    "date": "2026-10-21",
+    "manager": "BATDALOV RUSLAN RINATOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Спутник Магазин + Бар",
+    "code": "W080",
+    "date": "2026-10-21",
+    "manager": "BATDALOV RUSLAN RINATOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Хувайдо Магазин + Бар",
+    "code": "W130",
+    "date": "2026-10-21",
+    "manager": "XUDOYQULOVA MAXMUDA MAXKAMQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Чигатой Магазин + Бар",
+    "code": "W103",
+    "date": "2026-10-21",
+    "manager": "YUNUSOVA ZILOLA G'IYOSIDDINQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Нукус-1 Магазин + Бар",
+    "code": "W201",
+    "date": "2026-10-21",
+    "manager": "JUGINISOVA GO'ZZAL JOLDASBAY QI'ZI'",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Хаст-Имам Магазин + Бар",
+    "code": "W019",
+    "date": "2026-10-21",
+    "manager": "ASHIRALIYEVA MOXIRA ZIKIRILLAQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Шохсарой  Магазин + Бар",
+    "code": "W040",
+    "date": "2026-10-21",
+    "manager": "MAXKAMOVA NARGIZA SHUXRATQIZI",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Нурафшон Магазин + Бар",
+    "code": "W062",
+    "date": "2026-10-21",
+    "manager": "MAXMANAZAROVA IRODA ABDUVAHOBQIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Лабзак Магазин + Бар",
+    "code": "W141",
+    "date": "2026-10-21",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LIIDDINOVA MUNIRA SHOVKAT QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Чирчик Троицкий Магазин + Бар",
+    "code": "W161",
+    "date": "2026-10-21",
+    "manager": "NOSIROV BAXODIRJON BAXROMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Чирчик  Магазин + Бар",
+    "code": "W047",
+    "date": "2026-10-21",
+    "manager": "NOSIROV BAXODIRJON BAXROMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Зангиота Магазин + Бар",
+    "code": "W177",
+    "date": "2026-10-21",
+    "manager": "SOVETBAYEVA NODIRA SAPAR QIZI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Сергели",
+    "code": "W020",
+    "date": "2026-10-21",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Домбирабад Магазин + Бар",
+    "code": "W024",
+    "date": "2026-10-22",
+    "manager": "SHOKASIMOVA UMIDA XAMIDULLAYEVNA",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Авторынок Магазин + Бар",
+    "code": "W150",
+    "date": "2026-10-22",
+    "manager": "IMOMJONOVA NAZOKAT ABDURAUP QIZI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Цум Магазин + Бар",
+    "code": "W030",
+    "date": "2026-10-22",
+    "manager": "SAIDMUXTOROV FIRDAVSJON ABDUKAXXOR O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Тарас Шевченко Магазин + Бар",
+    "code": "W066",
+    "date": "2026-10-22",
+    "manager": "",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Пойтахт Магазин + Бар",
+    "code": "W213",
+    "date": "2026-10-22",
+    "manager": "BASHIROVA KRISTINA VADIMOVNA",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Эркин Магазин + Бар",
+    "code": "W147",
+    "date": "2026-10-22",
+    "manager": "MAGDALIYEVA MUQADDAS KOMIL QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Эшонгузар Магазин + Бар",
+    "code": "W181",
+    "date": "2026-10-22",
+    "manager": "MAGDALIYEVA MUQADDAS KOMIL QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Бочка Магазин + Бар",
+    "code": "W173",
+    "date": "2026-10-22",
+    "manager": "TURDIKULOVA ZARINA JANGABEK QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Газалкент Магазин + Бар",
+    "code": "W154",
+    "date": "2026-10-22",
+    "manager": "ZAKIRJONOVA BARGIDA MISLIMBEKOVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Келес  Магазин  + Бар",
+    "code": "W078",
+    "date": "2026-10-22",
+    "manager": "RAXMATULLAYEVA SHOISTA ZOIR QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Кургонтепа Магазин + Бар",
+    "code": "W155",
+    "date": "2026-10-22",
+    "manager": "DADABAYEVA NAZOKAT XASANOVNA",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Сергели Магазин + Бар",
+    "code": "W021",
+    "date": "2026-10-22",
+    "manager": "AYUPOV ABBOSXON",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Ганга Магазин + Бар",
+    "code": "W012",
+    "date": "2026-10-22",
+    "manager": "YUNUSOVA SHAXNOZA BADRIDDINOVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Перфект University Магазин + Бар",
+    "code": "W232",
+    "date": "2026-10-22",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Дружба Магазин + Бар",
+    "code": "W182",
+    "date": "2026-10-23",
+    "manager": "ASHIROVA SETORA SOLIX QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Новза Магазин + Бар",
+    "code": "W143",
+    "date": "2026-10-23",
+    "manager": "ABDULLAZODA BONUSHAXZODA ASADULLAQIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Гёте Магазин + Бар",
+    "code": "W053",
+    "date": "2026-10-23",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Изза Магазин + Бар",
+    "code": "W096",
+    "date": "2026-10-23",
+    "manager": "KARIMOV NODIRJON O'TKIRJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Ватан Магазин + Бар",
+    "code": "W094",
+    "date": "2026-10-23",
+    "manager": "SHOKASIMOVA UMIDA XAMIDULLAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Янгибазар Магазин + Бар",
+    "code": "W162",
+    "date": "2026-10-23",
+    "manager": "YO'LDOSHEVA DURDONA GAFUROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia ТТЗ Магазин + Бар",
+    "code": "W101",
+    "date": "2026-10-23",
+    "manager": "BADALOVA DILOBAR YUSUPOVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Бекабад Магазин + Бар",
+    "code": "W151",
+    "date": "2026-10-23",
+    "manager": "KOMILJONOV NURZOD ULUG'BEK O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Жомий Магазин + Бар",
+    "code": "W076",
+    "date": "2026-10-23",
+    "manager": "LATIPOVA DILNOZA BAXODIROVNA",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Сингапурский Магазин + Бар",
+    "code": "W063",
+    "date": "2026-10-23",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Ракат Магазин + Бар",
+    "code": "W017",
+    "date": "2026-10-23",
+    "manager": "SEITMAMBETOVA ZAREMA RIZAYEVNA",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Гагарин",
+    "code": "W221",
+    "date": "2026-10-23",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Джизах-1 Магазин + Бар",
+    "code": "W199",
+    "date": "2026-10-24",
+    "manager": "IBRAYMOVA SHAXNOZA SARSENBAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Туйтепа Магазин + Бар",
+    "code": "W159",
+    "date": "2026-10-24",
+    "manager": "DEKANBAYEVA SHIRIN NIG'MATJON QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Зиёлилар  Магазин + Бар",
+    "code": "W014",
+    "date": "2026-10-24",
+    "manager": "UBAYDULLAYEV OBIDXON FAYZULLA O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Лакокраска Магазин + Бар",
+    "code": "W002",
+    "date": "2026-10-24",
+    "manager": "UBAYDULLAYEV OBIDXON FAYZULLA O'G'LI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Самарканд Магазин + Бар",
+    "code": "W156",
+    "date": "2026-10-25",
+    "manager": "KARIMOV DILSHODBEK AKBAR O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Гейдар Алиев Магазин + Бар",
+    "code": "W167",
+    "date": "2026-10-26",
+    "manager": "TO`YCHIYEVA OYSHAXON XURSHIDQIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Ашрафий Магазин + Бар",
+    "code": "W125",
+    "date": "2026-10-26",
+    "manager": "TO`YCHIYEVA OYSHAXON XURSHIDQIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Узбум Магазин + Бар",
+    "code": "W180",
+    "date": "2026-10-26",
+    "manager": "RAZAKOV SANJAR ABDUPATTAXOVICH",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Торговый центр (гагарина) Магазин + Бар",
+    "code": "W171",
+    "date": "2026-10-26",
+    "manager": "AXMADXO'JAYEV UMIDJON ULUG'BEK O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Атлас Магазин + Бар",
+    "code": "W075",
+    "date": "2026-10-26",
+    "manager": "ABDULLAYEVA NILUFAR RIXSIVAYEVNA",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Корасув Магазин + Бар",
+    "code": "W098",
+    "date": "2026-10-26",
+    "manager": "AZIZOVA IRODA BAXODIR QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Компас Магазин + Бар",
+    "code": "W097",
+    "date": "2026-10-26",
+    "manager": "TURSUNOVA MARXAMAT SIDIKXODJAYEVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Янгиюль Магазин + Бар",
+    "code": "W070",
+    "date": "2026-10-26",
+    "manager": "MIRZABEK DINARA MARATQIZI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Нукус Магазин + Бар",
+    "code": "W061",
+    "date": "2026-10-26",
+    "manager": "XAYRULLAYEVA CHAROSBONU G'AYRATULLO QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Бельтепа Магазин + Бар",
+    "code": "W203",
+    "date": "2026-10-26",
+    "manager": "AHMEDOV HUSAN FURQAT O'G'LI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Тинчлик Магазин + Бар",
+    "code": "W028",
+    "date": "2026-10-26",
+    "manager": "XIDIROVA NARGIZA AXMETOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Чорсу Магазин + Бар",
+    "code": "W081",
+    "date": "2026-10-26",
+    "manager": "ZOKIROVA YULDUZ AXMADJONOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Мега Магазин + Бар",
+    "code": "W035",
+    "date": "2026-10-26",
+    "manager": "QOSIMOV AHMADJON AZIMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Бодомзор Магазин + Бар",
+    "code": "W208",
+    "date": "2026-10-26",
+    "manager": "ABDUJABBOROV NURULLO NARZULLO O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Burger Беруний",
+    "code": "W217",
+    "date": "2026-10-26",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Burger Медгородок",
+    "code": "W226",
+    "date": "2026-10-26",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Фестиваль Магазин + Бар",
+    "code": "W119",
+    "date": "2026-10-27",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Центрбанк Магазин + Бар",
+    "code": "W212",
+    "date": "2026-10-27",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Кушбеги Магазин + Бар",
+    "code": "W059",
+    "date": "2026-10-27",
+    "manager": "XUSNIDDINOVA MUXLISA QAHRAMON QIZI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Шота Руставели Магазин + Бар",
+    "code": "W089",
+    "date": "2026-10-27",
+    "manager": "QAYYUMOV DILSHOD NODIRJONO'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Пионерская Магазин + Бар",
+    "code": "W079",
+    "date": "2026-10-27",
+    "manager": "GAYBULLAYEV MUXAMMADJON AXMADJON O'G'LI",
+    "accountant": "ISAYEV MAKSIM SERGEYEVICH"
+  },
+  {
+    "branch": "Safia Бешкорогоч Магазин + Бар",
+    "code": "W045",
+    "date": "2026-10-27",
+    "manager": "G'IYOSOVA SHAHZODA BAHODIR QIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Урикзар Магазин + Бар",
+    "code": "W029",
+    "date": "2026-10-27",
+    "manager": "KARIMOV NODIRJON O'TKIRJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Алмалык Айдын Магазин + Бар",
+    "code": "W216",
+    "date": "2026-10-27",
+    "manager": "KURVONBOYEV MURODBEK KURVONBOYO'G'LI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Алмалык Магазин + Бар",
+    "code": "W054",
+    "date": "2026-10-27",
+    "manager": "XOLIKOVA VIOLETA VIKTOROVNA",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Северный вокзал Магазин + Бар в 20:00",
+    "code": "W158",
+    "date": "2026-10-27",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Матонат Магазин + Бар",
+    "code": "W214",
+    "date": "2026-10-27",
+    "manager": "USMANALIYEVA JULDIZ ABDALIQIZI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Кукча Магазин + Бар",
+    "code": "W034",
+    "date": "2026-10-27",
+    "manager": "XUDOYQULOVA MAXMUDA MAXKAMQIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Каракамыш АЛО Магазин + Бар",
+    "code": "W215",
+    "date": "2026-10-27",
+    "manager": "SHARIPOVA JASMIN NURULLA QIZI",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Уч Кахрамон Магазин + Бар",
+    "code": "W067",
+    "date": "2026-10-27",
+    "manager": "ZUXRIDDINOVA NIGORA RAXMATILLAYEVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Эко Магазин + Бар",
+    "code": "W091",
+    "date": "2026-10-27",
+    "manager": "YULDASHEVA MALOXAT BAXTIYOR QIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Боткина Магазин + Бар",
+    "code": "W152",
+    "date": "2026-10-27",
+    "manager": "KALANDAROVA FERUZA MURODQIZI",
+    "accountant": "SAIDXONOV SAIDAKBAR NODIR O'G'LI"
+  },
+  {
+    "branch": "Safia Луначаский Магазин + Бар",
+    "code": "W027",
+    "date": "2026-10-27",
+    "manager": "QURBONBEKOV ABDURAHMON BOTIRBEK O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Чинабад Магазин + Бар",
+    "code": "W191",
+    "date": "2026-10-27",
+    "manager": "SODIQOV AZIMJON AZIZJONOVICH",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Вега Магазин + Бар",
+    "code": "W137",
+    "date": "2026-10-27",
+    "manager": "KASIMXANOV SAIDXON MAJIDXONOVICH",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  },
+  {
+    "branch": "Safia Глинка Магазин + Бар",
+    "code": "W095",
+    "date": "2026-10-28",
+    "manager": "BAXODIROV JAVLON DAVRON O'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Аэропорт Arrivals Магазин + Бар",
+    "code": "W202",
+    "date": "2026-10-28",
+    "manager": "ZUPAROV ABDUVOSIX VOXOBO'G'LI",
+    "accountant": "ABDUMUTALIPOV ABDULAZIZ ABDURAXMON O'G'LI"
+  },
+  {
+    "branch": "Safia Камолон Магазин + Бар",
+    "code": "W077",
+    "date": "2026-10-28",
+    "manager": "XALILOVA DILDORA TO'LQINQIZI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Заркайнар Магазин + Бар",
+    "code": "W172",
+    "date": "2026-10-28",
+    "manager": "RO'ZIBOYEV FIRDAVSBEK AKMALJON O'G'LI",
+    "accountant": "KARIMOV ISLOM QOSIMJON O`G`LI"
+  },
+  {
+    "branch": "Safia Авайхон Магазин + Бар",
+    "code": "W022",
+    "date": "2026-10-28",
+    "manager": "AZIZOVA IRODA BAXODIR QIZI",
+    "accountant": "MAXAMBETOV NURLIBEK BAQITJANO'G'LI"
+  },
+  {
+    "branch": "Safia Дархан Магазин + Бар",
+    "code": "W085",
+    "date": "2026-10-28",
+    "manager": "NOSIROV ELDORBEK ULUG'BEKO'G'LI",
+    "accountant": "MAXAMBETOV ULUG'BEK BAKITJAN O'G'LI"
+  },
+  {
+    "branch": "Safia Мевазор Магазин + Бар",
+    "code": "W044",
+    "date": "2026-10-28",
+    "manager": "ABDUKADIROVA MALIKA MURATQIZ",
+    "accountant": "NURALIBEKOV BAXTIYOR ELIYOR O'G'LI"
+  },
+  {
+    "branch": "Safia Гулобод Магазин + Бар",
+    "code": "W139",
+    "date": "2026-10-28",
+    "manager": "SAYRAMOVA DONO KABILJANOVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Штаб Магазин + Бар",
+    "code": "W104",
+    "date": "2026-10-28",
+    "manager": "XUJANOVA RA'NO BABANAZAROVNA",
+    "accountant": "SAIDBAXROMOV SAIDAXMAD SAIDAKMALOVICH"
+  },
+  {
+    "branch": "Safia Сайрам Магазин + Бар",
+    "code": "W099",
+    "date": "2026-10-28",
+    "manager": "BEGJANOV XIKMATJON XOLMAT O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia Гвардейская Магазин + Бар",
+    "code": "W013",
+    "date": "2026-10-28",
+    "manager": "NURIDDINOV ZUXRIDDIN NURIDDINO'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Safia СамПИ Магазин + Бар",
+    "code": "W087",
+    "date": "2026-10-28",
+    "manager": "QOSIMOV AHMADJON AZIMJON O'G'LI",
+    "accountant": "SHUXRATXO`JAYEV ABDULAZIZ G`AYRATXO`JAO`G`LI"
+  },
+  {
+    "branch": "Burger Карасу",
+    "code": "W223",
+    "date": "2026-10-28",
+    "manager": "QODIROV JAMOLIDDIN ABDUJABBOR O`G`LI",
+    "accountant": "SUPLOTOV KIRILL ALEKSANDROVICH"
+  }
+]
