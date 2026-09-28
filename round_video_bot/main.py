@@ -63,6 +63,11 @@ def connection():
     db.execute("CREATE TABLE IF NOT EXISTS people (chat_id INTEGER, user_id INTEGER, name TEXT, approved INTEGER DEFAULT 0, PRIMARY KEY(chat_id,user_id))")
     db.execute("CREATE TABLE IF NOT EXISTS checks (chat_id INTEGER, video_id INTEGER, label_id INTEGER, user_id INTEGER, branch TEXT, code TEXT, schedule_date TEXT, stated_date TEXT, accountant TEXT, expected TEXT, status TEXT, PRIMARY KEY(chat_id,video_id))")
     db.execute("CREATE TABLE IF NOT EXISTS deliveries (chat_id INTEGER, kind TEXT, period TEXT, PRIMARY KEY(chat_id,kind,period))")
+    db.execute("CREATE TABLE IF NOT EXISTS replacements (chat_id INTEGER, video_id INTEGER, admin_id INTEGER, PRIMARY KEY(chat_id,video_id))")
+    db.execute("CREATE TABLE IF NOT EXISTS alerts (chat_id INTEGER, code TEXT, schedule_date TEXT, PRIMARY KEY(chat_id,code,schedule_date))")
+    columns = {r[1] for r in db.execute("PRAGMA table_info(checks)")}
+    if "actual_date" not in columns:
+        db.execute("ALTER TABLE checks ADD COLUMN actual_date TEXT")
     return db
 
 
@@ -89,14 +94,53 @@ async def approve(message: Message, bot: Bot):
     if member.status not in ("administrator", "creator"):
         return
     target = message.reply_to_message.from_user
-    if not target:
+    if not target or not (message.reply_to_message.text or "").startswith("/iam "):
         return
     with connection() as db:
         person = db.execute("SELECT name FROM people WHERE chat_id=? AND user_id=?", (message.chat.id, target.id)).fetchone()
         if person:
             db.execute("UPDATE people SET approved=1 WHERE chat_id=? AND user_id=?", (message.chat.id, target.id))
+            pending = db.execute("SELECT video_id,schedule_date,stated_date,actual_date,expected FROM checks WHERE chat_id=? AND user_id=? AND status='бухгалтер не установлен'", (message.chat.id, target.id)).fetchall()
+            for video_id, scheduled, stated, actual, expected in pending:
+                actual = actual or stated
+                days = (datetime.fromisoformat(actual).date() - datetime.fromisoformat(scheduled).date()).days
+                if normalize(person[0]) != normalize(expected):
+                    status = "чужой филиал"
+                elif days > TOLERANCE:
+                    status = "поздно"
+                elif days < -TOLERANCE:
+                    status = "рано"
+                elif actual != stated:
+                    status = "дата в подписи не совпадает с датой видео"
+                else:
+                    status = "сдвиг по дате" if days else "совпадает"
+                db.execute("UPDATE checks SET accountant=?,status=? WHERE chat_id=? AND video_id=?", (person[0], status, message.chat.id, video_id))
     if person:
         await message.reply(f"✅ Подтверждён бухгалтер {person[0]}.")
+
+
+@dp.message(Command("cover"))
+async def cover(message: Message, bot: Bot):
+    """An administrator confirms that a different accountant was assigned to this video."""
+    if message.chat.type == "private" or not message.reply_to_message or (GROUP_ID and message.chat.id != GROUP_ID):
+        return
+    member = await bot.get_chat_member(message.chat.id, message.from_user.id)
+    if member.status not in ("administrator", "creator"):
+        return
+    target = message.reply_to_message.message_id
+    with connection() as db:
+        row = db.execute("SELECT video_id,actual_date,schedule_date,status FROM checks WHERE chat_id=? AND (video_id=? OR label_id=?)", (message.chat.id, target, target)).fetchone()
+        if not row:
+            await message.reply("Не нашёл проверенное видео. Ответьте /cover на видео или подпись к нему.")
+            return
+        if row[3] != "чужой филиал":
+            await message.reply("/cover применяется только к видео с результатом «чужой филиал». Другие отклонения он не отменяет.")
+            return
+        db.execute("INSERT OR REPLACE INTO replacements VALUES (?,?,?)", (message.chat.id, row[0], message.from_user.id))
+        days = (datetime.fromisoformat(row[1]).date() - datetime.fromisoformat(row[2]).date()).days
+        status = "замена подтверждена" if abs(days) <= TOLERANCE else ("поздно, замена подтверждена" if days > 0 else "рано, замена подтверждена")
+        db.execute("UPDATE checks SET status=? WHERE chat_id=? AND video_id=?", (status, message.chat.id, row[0]))
+    await message.reply(f"Замена бухгалтера подтверждена. Результат: {status}.")
 
 
 @dp.message(F.video_note | F.video)
@@ -112,12 +156,15 @@ async def video(message: Message):
 
 
 async def process_label(message, label, video_id):
-    date = message.date.astimezone(TZ).date()
+    with connection() as db:
+        video_row = db.execute("SELECT sent_at FROM videos WHERE chat_id=? AND message_id=?", (message.chat.id, video_id)).fetchone()
+    date = datetime.fromisoformat(video_row[0]).date() if video_row else message.date.astimezone(TZ).date()
     try:
         branch, stated = parse_label(label, date)
     except ValueError:
         await message.reply("Не понял дату. Напишите: Филиал ДД.ММ (ответом на видео).")
         return
+    # The stated date selects the intended occurrence; Telegram's timestamp decides timeliness.
     found = candidates(branch, stated)
     if not found:
         await message.reply(f"⚠️ В графике нет «{branch}» на {stated:%d.%m.%Y} (допуск ±{TOLERANCE} дня). Проверьте название и дату.")
@@ -129,20 +176,24 @@ async def process_label(message, label, video_id):
     with connection() as db:
         person = db.execute("SELECT name FROM people WHERE chat_id=? AND user_id=? AND approved=1", (message.chat.id, message.from_user.id)).fetchone()
     accountant = person[0] if person else ""
-    days = abs((datetime.fromisoformat(row["date"]).date() - stated).days)
+    days = (date - datetime.fromisoformat(row["date"]).date()).days
     if not accountant:
         status = "бухгалтер не установлен"
     elif normalize(accountant) != normalize(row["accountant"]):
         status = "чужой филиал"
     elif days > TOLERANCE:
-        status = "вне графика"
+        status = "поздно"
+    elif days < -TOLERANCE:
+        status = "рано"
+    elif stated != date:
+        status = "дата в подписи не совпадает с датой видео"
     elif days:
         status = "сдвиг по дате"
     else:
         status = "совпадает"
     with connection() as db:
-        db.execute("INSERT INTO checks VALUES (?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(chat_id,video_id) DO UPDATE SET label_id=excluded.label_id,branch=excluded.branch,code=excluded.code,schedule_date=excluded.schedule_date,stated_date=excluded.stated_date,accountant=excluded.accountant,expected=excluded.expected,status=excluded.status", (message.chat.id, video_id, message.message_id, message.from_user.id, row["branch"], row["code"], row["date"], stated.isoformat(), accountant, row["accountant"], status))
-    await message.reply(f'📍 {row["branch"]} ({row["code"]})\nГрафик: {row["date"]}; сообщено: {stated:%d.%m.%Y}\nПо графику: {row["accountant"]}\nОтправил: {accountant or "не подтверждён"}\nРезультат: {status}.')
+        db.execute("INSERT INTO checks (chat_id,video_id,label_id,user_id,branch,code,schedule_date,stated_date,accountant,expected,status,actual_date) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(chat_id,video_id) DO UPDATE SET label_id=excluded.label_id,branch=excluded.branch,code=excluded.code,schedule_date=excluded.schedule_date,stated_date=excluded.stated_date,accountant=excluded.accountant,expected=excluded.expected,status=excluded.status,actual_date=excluded.actual_date", (message.chat.id, video_id, message.message_id, message.from_user.id, row["branch"], row["code"], row["date"], stated.isoformat(), accountant, row["accountant"], status, date.isoformat()))
+    # Individual deviations are retained in reports; group alerts start only after two full days.
 
 
 @dp.message(F.text & F.reply_to_message)
@@ -177,17 +228,36 @@ async def today(message: Message):
 def report(chat_id, start, end):
     planned = [r for r in SCHEDULE if start <= r["date"] <= end]
     with connection() as db:
-        rows = db.execute("SELECT code,branch,schedule_date,stated_date,accountant,expected,status FROM checks WHERE chat_id=? AND stated_date BETWEEN ? AND ? ORDER BY stated_date,code", (chat_id, start, end)).fetchall()
+        rows = db.execute("SELECT code,branch,schedule_date,COALESCE(actual_date,stated_date),accountant,expected,status FROM checks WHERE chat_id=? AND (schedule_date BETWEEN ? AND ? OR COALESCE(actual_date,stated_date) BETWEEN ? AND ?) ORDER BY schedule_date,code", (chat_id, start, end, start, end)).fetchall()
     counts = Counter(r[6] for r in rows)
-    covered = {(r[0], r[2]) for r in rows if r[6] == "совпадает"}
+    covered = {(r[0], r[2]) for r in rows if r[6] in ("совпадает", "сдвиг по дате", "замена подтверждена")}
     missing = [r for r in planned if (r["code"], r["date"]) not in covered]
-    lines = [f"📊 Отчёт {start} — {end}", f"По графику: {len(planned)}; видео: {len(rows)}; совпадает: {counts['совпадает']}; без подтверждённого совпадения: {len(missing)}", "Статусы: " + (", ".join(f"{k} — {v}" for k, v in sorted(counts.items())) or "видео нет")]
+    lines = [f"📊 Отчёт {start} — {end}", f"По графику: {len(planned)}; видео: {len(rows)}; выполнено в допуске: {len(covered)}; без подтверждённого выполнения: {len(missing)}", "Статусы: " + (", ".join(f"{k} — {v}" for k, v in sorted(counts.items())) or "видео нет")]
     for r in rows:
         if r[6] != "совпадает":
             lines.append(f"⚠️ {r[3]} {r[0]} {r[1]}: {r[6]}; снял: {r[4] or 'не установлен'}; по графику: {r[5]}")
     for r in missing:
         lines.append(f'➖ {r["date"]} {r["code"]} {r["branch"]}: нет подтверждённого совпадения ({r["accountant"]})')
     return "\n".join(lines)
+
+
+async def overdue_alerts(bot, today):
+    if not GROUP_ID:
+        return
+    for row in SCHEDULE:
+        due = datetime.fromisoformat(row["date"]).date()
+        if (today - due).days <= TOLERANCE:
+            continue
+        with connection() as db:
+            done = db.execute("SELECT 1 FROM checks WHERE chat_id=? AND code=? AND schedule_date=? AND status IN ('совпадает','сдвиг по дате','замена подтверждена')", (GROUP_ID, row["code"], row["date"])).fetchone()
+            alerted = db.execute("SELECT 1 FROM alerts WHERE chat_id=? AND code=? AND schedule_date=?", (GROUP_ID, row["code"], row["date"])).fetchone()
+            attempts = db.execute("SELECT accountant,status FROM checks WHERE chat_id=? AND code=? AND schedule_date=? ORDER BY actual_date DESC LIMIT 2", (GROUP_ID, row["code"], row["date"])).fetchall()
+        if done or alerted:
+            continue
+        note = "; ".join(f"{name or 'не установлен'}: {status}" for name, status in attempts) or "подтверждённого видео нет"
+        await bot.send_message(GROUP_ID, f'🚨 Просрочка больше 2 дней: {row["branch"]} ({row["code"]})\nГрафик: {row["date"]}; бухгалтер: {row["accountant"]}\nВидео: {note}.')
+        with connection() as db:
+            db.execute("INSERT OR IGNORE INTO alerts VALUES (?,?,?)", (GROUP_ID, row["code"], row["date"]))
 
 
 async def send_report(bot, chat_id, kind, start, end, automatic=False):
@@ -226,6 +296,7 @@ async def scheduled(bot):
         if GROUP_ID and now.hour == 9:
             yesterday = now.date() - timedelta(days=1)
             try:
+                await overdue_alerts(bot, now.date())
                 if now.weekday() == 0:
                     start = yesterday - timedelta(days=6)
                     await send_report(bot, GROUP_ID, "week", start.isoformat(), yesterday.isoformat(), True)
