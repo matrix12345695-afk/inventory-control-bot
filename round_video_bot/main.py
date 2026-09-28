@@ -129,12 +129,15 @@ async def cover(message: Message, bot: Bot):
         return
     target = message.reply_to_message.message_id
     with connection() as db:
-        row = db.execute("SELECT video_id,actual_date,schedule_date,status FROM checks WHERE chat_id=? AND (video_id=? OR label_id=?)", (message.chat.id, target, target)).fetchone()
+        row = db.execute("SELECT video_id,actual_date,schedule_date,status,stated_date FROM checks WHERE chat_id=? AND (video_id=? OR label_id=?)", (message.chat.id, target, target)).fetchone()
         if not row:
             await message.reply("Не нашёл проверенное видео. Ответьте /cover на видео или подпись к нему.")
             return
         if row[3] != "чужой филиал":
             await message.reply("/cover применяется только к видео с результатом «чужой филиал». Другие отклонения он не отменяет.")
+            return
+        if row[1] != row[4]:
+            await message.reply("Дата подписи отличается от даты видео. Исправьте подпись ответом на видео перед подтверждением замены.")
             return
         db.execute("INSERT OR REPLACE INTO replacements VALUES (?,?,?)", (message.chat.id, row[0], message.from_user.id))
         days = (datetime.fromisoformat(row[1]).date() - datetime.fromisoformat(row[2]).date()).days
