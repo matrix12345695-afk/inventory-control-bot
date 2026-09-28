@@ -244,6 +244,7 @@ def report(chat_id, start, end):
 async def overdue_alerts(bot, today):
     if not GROUP_ID:
         return
+    pending = []
     for row in SCHEDULE:
         due = datetime.fromisoformat(row["date"]).date()
         if (today - due).days <= TOLERANCE:
@@ -255,9 +256,24 @@ async def overdue_alerts(bot, today):
         if done or alerted:
             continue
         note = "; ".join(f"{name or 'не установлен'}: {status}" for name, status in attempts) or "подтверждённого видео нет"
-        await bot.send_message(GROUP_ID, f'🚨 Просрочка больше 2 дней: {row["branch"]} ({row["code"]})\nГрафик: {row["date"]}; бухгалтер: {row["accountant"]}\nВидео: {note}.')
+        pending.append((row, note))
+    # One digest per run avoids dozens of separate messages on a busy schedule.
+    batch = []
+    keys = []
+    for row, note in pending:
+        line = f'{row["date"]} {row["code"]} {row["branch"]} — {row["accountant"]}; видео: {note}'
+        if sum(map(len, batch)) + len(line) > 3200:
+            await bot.send_message(GROUP_ID, "🚨 Просрочено больше 2 дней:\n" + "\n".join(batch))
+            with connection() as db:
+                db.executemany("INSERT OR IGNORE INTO alerts VALUES (?,?,?)", keys)
+            batch = []
+            keys = []
+        batch.append(line)
+        keys.append((GROUP_ID, row["code"], row["date"]))
+    if batch:
+        await bot.send_message(GROUP_ID, "🚨 Просрочено больше 2 дней:\n" + "\n".join(batch))
         with connection() as db:
-            db.execute("INSERT OR IGNORE INTO alerts VALUES (?,?,?)", (GROUP_ID, row["code"], row["date"]))
+            db.executemany("INSERT OR IGNORE INTO alerts VALUES (?,?,?)", keys)
 
 
 async def send_report(bot, chat_id, kind, start, end, automatic=False):
